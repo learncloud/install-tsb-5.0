@@ -145,6 +145,19 @@
 
 
 ## Template-operator uninstall Steps
+
+- 한번에 지우는 스크립트
+```bash
+cd ~/install-tsb-5.0/manifest
+chmod 777 install-tsb.sh
+./install-tsb.sh uninstall-template
+./install-tsb.sh uninstall-cluster-tsb
+./install-tsb.sh uninstall-tsb
+./install-tsb.sh unregister-cluster-tsb
+./install-tsb.sh unregister-tsb
+
+```
+
 - 설치 역순으로 진행 (차례대로 아래와 같은 yaml 적용)
   1. kubectl delete -f deploy_manager.yaml ([파일](./manifest/yaml/template-operator/deploy_manager.yaml))
   2. kubectl delete -f deploy_rbac.yaml ([파일](./manifest/yaml/template-operator/deploy_rbac.yaml))
