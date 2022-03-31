@@ -34,17 +34,31 @@
 
 
 ## 아래 Step들을 모두 무시하고 한번에 설치하는 절차
+- tsb.config, install-tsb.sh파일과 yaml 디렉토리는 같은 디렉토리 내에에 있어야 합니다.
 
 ```bash
 cd ~/install-tsb-5.0/manifest
+chmod 777 install-tsb.sh
 
 # 1. tsb.config 설정
+## imageRegistry 수정, 나머지는 VERSION정보를 기재한것이므로 수정할 불필요
+# imageRegistry={IP}:{PORT}
+imageRegistry=192.168.178.17:5000 
 
 # 2. install-template 설치
+sudo ./install-tsb.sh install-template
+ 
 # 3. install-cluster-tsb 설치
+sudo ./install-tsb.sh install-cluster-tsb
+
 # 4. install-tsb 설치
+sudo ./install-tsb.sh install-tsb
+
 # 5. register-cluster-tsb 설치
+sudo ./install-tsb.sh register-cluster-tsb
+
 # 6. register-tsb 설치
+sudo ./install-tsb.sh register-tsb
 
 ```
 
