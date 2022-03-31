@@ -216,3 +216,4 @@ chmod 777 install-tsb.sh
   4. kubectl delete -f tsb_rolebinding.yaml ([파일](./manifest/yaml/tsb/tsb_rolebinding.yaml))
   5. kubectl delete -f tsb_role.yaml ([파일](./manifest/yaml/tsb/tsb_role.yaml))
   6. kubectl delete -f tsb_serviceaccount.yaml ([파일](./manifest/yaml/tsb/tsb_serviceaccount.yaml))
+
