@@ -34,10 +34,16 @@
 
 
 ## 아래 Step들을 모두 무시하고 한번에 설치하는 절차
-- 
+
 ```bash
 cd ~/install-tsb-5.0/manifest
 
+# 1. tsb.config 설정
+# 2. install-template 설치
+# 3. install-cluster-tsb 설치
+# 4. install-tsb 설치
+# 5. register-cluster-tsb 설치
+# 6. register-tsb 설치
 
 ```
 
