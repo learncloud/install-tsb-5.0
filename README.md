@@ -39,6 +39,7 @@
 cd ~/install-tsb-5.0/manifest
 
 # 1. tsb.config 설정
+
 # 2. install-template 설치
 # 3. install-cluster-tsb 설치
 # 4. install-tsb 설치
