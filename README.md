@@ -32,6 +32,17 @@
 4. [Deployment 생성](#Step-4-Template-operator-Deployment-생성)
 - install script를 통해 설치하실 경우, manifest/README.md를 참고해 주세요.
 
+
+## 아래 Step들을 모두 무시하고 한번에 설치하는 절차
+- 
+```bash
+cd ~/install-tsb-5.0/manifest
+
+
+```
+
+
+<br><br><br>
 ## Step 1. Template operator CRD 생성
 - 목적 : `Template operator CRD 생성`
 - 생성 순서 : 아래 command로 번역 CRD yaml 적용
