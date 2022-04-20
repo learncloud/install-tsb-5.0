@@ -22,7 +22,7 @@
 ## Prerequisites
 
 - TemplateServiceBroker 설치 전, Template operator module이 설치 되어 있어야 합니다.
-- service-catalog를 사용하고자 하시는 경우, [install-catalog](https://github.com/tmax-cloud/install-catalog/tree/5.0)를 참고하여 catalogController를 설치해 주세요.
+- service-catalog를 사용하고자 하시는 경우, [install-catalog](https://github.com/learncloud/install-Catalog-Controller-5.0)를 참고하여 catalogController를 설치해 주세요.
 - 폐쇄망에서 설치하는 경우 사용하는 image를 다운받고 저장합니다.
    * [install-registry 이미지 푸시하기 참조](https://github.com/tmax-cloud/install-registry/blob/5.0/podman.md)
 
