@@ -27,6 +27,7 @@
    * [install-registry 이미지 푸시하기 참조](https://github.com/learncloud/install-registry-docker-ce/blob/main/readme.md)
 
 ## 원스탭 설치 가이드
+- `아래Step 1 ~ 5를 무시하고 한번에 설치`
 - tsb.config, install-tsb.sh파일과 yaml 디렉토리는 같은 디렉토리 내에에 있어야 합니다.
 
 ```bash
