@@ -25,13 +25,6 @@
 - service-catalog를 사용하고자 하시는 경우, [install-catalog](https://github.com/tmax-cloud/install-catalog/tree/5.0)를 참고하여 catalogController를 설치해 주세요.
 - 폐쇄망에서 설치하는 경우 사용하는 image를 다운받고 저장합니다.
    * [install-registry 이미지 푸시하기 참조](https://github.com/tmax-cloud/install-registry/blob/5.0/podman.md)
-## Template-operator install Steps
-1. [CRD 생성](#Step-1-Template-operator-CRD-생성)
-2. [Namespace 생성](#Step-2-Template-operator-Namespace-생성)
-3. [Role 및 RoleBinding 생성](#Step-3-Template-operator-Role-및-RoleBinding-생성)
-4. [Deployment 생성](#Step-4-Template-operator-Deployment-생성)
-- install script를 통해 설치하실 경우, manifest/README.md를 참고해 주세요.
-
 
 ## 아래 Step들을 모두 무시하고 한번에 설치하는 절차
 - tsb.config, install-tsb.sh파일과 yaml 디렉토리는 같은 디렉토리 내에에 있어야 합니다.
@@ -64,6 +57,16 @@ sudo ./install-tsb.sh register-tsb
 
 
 <br><br><br>
+
+
+## Template-operator install Steps
+1. [CRD 생성](#Step-1-Template-operator-CRD-생성)
+2. [Namespace 생성](#Step-2-Template-operator-Namespace-생성)
+3. [Role 및 RoleBinding 생성](#Step-3-Template-operator-Role-및-RoleBinding-생성)
+4. [Deployment 생성](#Step-4-Template-operator-Deployment-생성)
+- install script를 통해 설치하실 경우, manifest/README.md를 참고해 주세요.
+
+
 ## Step 1. Template operator CRD 생성
 - 목적 : `Template operator CRD 생성`
 - 생성 순서 : 아래 command로 번역 CRD yaml 적용
